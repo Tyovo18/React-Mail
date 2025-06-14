@@ -1,0 +1,17 @@
+.w640{
+    background: #ffffff;
+    margin: 0 auto;
+
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    
+}
+
+@media only screen and (max-width:600px) {
+    [class= w640], .w640{
+        width: 100% !important;
+    }
+}

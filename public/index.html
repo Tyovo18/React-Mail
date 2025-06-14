@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <style type="text/css">
+      @media only screen {
+        html {
+          min-height: 100%;
+          background: #F4F4F4;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .small-float-center {
+          margin: 0 auto !important;
+          float: none !important;
+          text-align: center !important
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        [class= w640], .w640 {
+          width: 100% !important
+        }
+
+        [class= dblock], .dblock {
+          display: block !important;
+          margin: 0 auto;
+        }
+
+        .small-padding {
+          width: 90% !important;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        table.body img {
+          width: auto;
+          height: auto
+        }
+
+        .hide--mobile {
+          display: none !important;
+        }
+
+        table.body center {
+          min-width: 0 !important
+        }
+
+        .img-small {
+          width: 90% !important;
+        }
+
+        table.body .container {
+          width: 95% !important
+        }
+
+        table.body .container.large {
+          width: 100% !important
+        }
+
+        table.body .columns {
+          height: auto !important;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding-left: 0 !important;
+          padding-right: 0 !important
+        }
+
+        table.body .columns .columns {
+          padding-left: 0 !important;
+          padding-right: 0 !important
+        }
+
+        table.body .full-height {
+          height: 100% !important
+        }
+
+        table.body .collapse .columns {
+          padding-left: 0 !important;
+          padding-right: 0 !important
+        }
+
+        th.small-1 {
+          display: inline-block !important;
+          width: 8.33333% !important
+        }
+
+        th.small-2 {
+          display: inline-block !important;
+          width: 16.66667% !important
+        }
+
+        th.small-3 {
+          display: inline-block !important;
+          width: 25% !important
+        }
+
+        th.small-4 {
+          display: inline-block !important;
+          width: 33.33333% !important
+        }
+
+        th.small-5 {
+          display: inline-block !important;
+          width: 41.66667% !important
+        }
+
+        th.small-6 {
+          display: inline-block !important;
+          width: 50% !important
+        }
+
+        th.small-7 {
+          display: inline-block !important;
+          width: 58.33333% !important
+        }
+
+        th.small-8 {
+          display: inline-block !important;
+          width: 66.66667% !important
+        }
+
+        th.small-9 {
+          display: inline-block !important;
+          width: 75% !important
+        }
+
+        th.small-10 {
+          display: inline-block !important;
+          width: 83.33333% !important
+        }
+
+        th.small-11 {
+          display: inline-block !important;
+          width: 91.66667% !important
+        }
+
+        th.small-12 {
+          display: inline-block !important;
+          width: 100% !important
+        }
+
+        .columns th.small-12 {
+          display: block !important;
+          width: 100% !important
+        }
+
+        table.menu {
+          width: 100% !important
+        }
+
+        table.menu td, table.menu th {
+          width: auto !important;
+          display: inline-block !important
+        }
+
+        table.menu.vertical td, table.menu.vertical th {
+          display: block !important
+        }
+
+        table.menu[align=center] {
+          width: auto !important
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        th.small-0 {
+          width: 0;
+          display: none !important
+        }
+
+        th.small-0.first {
+          width: 0;
+          display: none !important
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .not-for-mobile {
+          display: none !important
+        }
+
+        .for-mobile {
+          display: block !important;
+        }
+
+        .bloc-right {
+          border-left: 0 !important
+        }
+
+        .bloc-left {
+          border-right: 0 !important
+        }
+
+        .half-title {
+          font-size: 20px !important
+        }
+
+        .half-text {
+          font-size: 16px !important
+        }
+
+        .services-title {
+          font-size: 12px !important;
+          line-height: 16px !important
+        }
+      }
+
+      @media only screen and (max-width: 599px) {
+        td img {
+          height: auto;
+        }
+
+        td.w237 {
+          width: 162px !important;
+        }
+
+        th.small-0.first {
+          width: 0;
+          display: none !important
+        }
+
+        td.footer {
+          padding: 10px !important;
+        }
+      }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!--[if mso]>
+    <style type=”text/css”>
+      td, th, span {
+      }
+    </style>
+    <![endif]-->
+
+
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

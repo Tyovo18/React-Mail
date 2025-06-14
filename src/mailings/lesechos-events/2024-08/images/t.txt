@@ -1,0 +1,26 @@
+<Text width={20} style={{...mediumT, textAlign: 'left'}}>
+
+
+                                                <br/><br/>
+
+                                                <strong style={{color: '#E63316'}}>
+                                                    &bull;&nbsp;&nbsp;18H30 - 21H00
+                                                </strong>
+                                                <br/>
+                                                Retransmission des &#233;preuves sur &#233;crans g&#233;ants, ambiance musicale DJ set, interviews avec des personnalit&#233;s sportives, et cocktail d&#238;natoire
+                                                <br/><br/>
+
+                                                <strong style={{color: '#E63316'}}>
+                                                    &bull;&nbsp;&nbsp;21H00 - 23H00
+                                                </strong>
+                                                <br/>
+                                                C&#233;l&#233;bration des m&#233;daill&#233;s avec sc&#233;narisation
+                                                <br/><br/>
+
+                                                <strong style={{color: '#E63316'}}>
+                                                    &bull;&nbsp;&nbsp;23H00 - 02H00
+                                                </strong>
+                                                <br/>
+                                                Programmation musicale : Concerts et DJ set
+
+                                            </Text>

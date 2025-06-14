@@ -1,0 +1,25 @@
+.button--generate {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  color: white;
+  text-align: center;
+
+  cursor: pointer;
+  border: 0;
+
+  background-color: transparent;
+
+  svg rect {
+    transition: all .3s;
+  }
+
+  &:hover {
+    svg {
+      rect {
+        fill: cornflowerblue;
+      }
+    }
+  }
+}
